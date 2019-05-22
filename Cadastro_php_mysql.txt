@@ -1,0 +1,29 @@
+Criando um sistema de cadastro com PHP e MySQL
+------------------------------------------------
+
+- Criar uma tablea de usuários;
+- Criar um formulário de cadastro;
+- Criar a página do cadastro.php;
+- Criar um formulário de login;
+- Criar a página de login.php;
+- Criar a página de index.php
+
+	Criando o banco: BD_empresa;
+	Tabela com apenas 3 campos;
+
+		O código:
+		---------
+
+		CREATE TABLE usuarios(ID int UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, 
+		Login varchar(30),
+		Senha vachar(40),
+		PRIMARY KEY (ID)) ENGINE=MYISAM;      
+
+
+UNSIGNED = É um atributo usado para permitir somente valores positivos
+positivos em uma coluna do banco, o que acaba gerando uma faixa maior de números positivos,
+ZEROFILL = Preenche espaços vazios da coluna com número zero.
+	
+
+
+		             
